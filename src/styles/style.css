@@ -3,14 +3,21 @@ body {
     margin: 0;
 }
 
+.button_image {
+    width: 96px;
+    height: 96px;
+}
+
 .category_button {
     background-color: #5B6EE1;
     color: white;
     display: inline-block;
     border: none;
     border-radius: 15px;
-    height: 100px;
-    width: 100px;
+    padding: 8px;
+    align-items: center;
+    align-content: center;
+    
 
 
     &:hover {

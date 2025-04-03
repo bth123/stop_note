@@ -2,9 +2,9 @@ import React from "react";
 
 function Home () {
     return <div className="categories">
-        <button className="category_button">SAY GEX</button>
-        <button className="category_button">PAY GORN</button>
-        <button className="category_button">SENTLE GEX</button>
+        <button className="category_button"><img className="button_image" src="assets/icons/history.svg"></img></button>
+        <button className="category_button"><img className="button_image" src="assets/icons/statistics.svg"></img></button>
+        <button className="category_button">SOMO HEXUAL</button>
     </div>;
 }
 
