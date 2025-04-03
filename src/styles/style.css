@@ -1,0 +1,34 @@
+body {
+    background-color: #1F1F1F;
+    margin: 0;
+}
+
+.category_button {
+    background-color: #5B6EE1;
+    color: white;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+
+
+    &:hover {
+        background-color: #485CD0;
+        transition: 0.2s background-color;
+    }
+
+
+    &:active {
+        background-color: #384CC0;
+        transition: 0.2s background-color;
+    }
+}
+
+.categories {
+    display: flex;
+    margin: 15px;
+    justify-self: center;
+    gap: 25px;
+}
+
